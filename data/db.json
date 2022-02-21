@@ -1,0 +1,53 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "welcome to the new blog",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "tags": [
+        "webdev",
+        "coding",
+        "news"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "top 5 CSS tips",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "tags": [
+        "css",
+        "webdev",
+        "coding"
+      ]
+    },
+    {
+      "title": "Nisi mollitia aut si",
+      "body": "Cupidatat nostrud of",
+      "tags": [
+        "Ea",
+        "est",
+        "iusto dicta u"
+      ],
+      "id": 3
+    },
+    {
+      "title": "Ducimus eos perfer",
+      "body": "Ea omnis adipisci se",
+      "tags": [
+        "Similique",
+        "itaque",
+        "ull           "
+      ],
+      "id": 4
+    },
+    {
+      "title": "Redirect",
+      "body": "Inventore in quos co",
+      "tags": [
+        "Laboris",
+        "quia"
+      ],
+      "id": 5
+    }
+  ]
+}
