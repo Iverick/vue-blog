@@ -26,6 +26,7 @@
 <script>
 import { ref } from '@vue/reactivity'
 import { useRouter } from 'vue-router'
+import { projectFirestore, timestamp } from '../firebase/config'
 
 export default {
   setup() {
@@ -44,18 +45,21 @@ export default {
     }
 
     const handleSubmit = async() => {
-      let post = {
+      const post = {
         title: title.value,
         body: body.value,
         tags: tags.value,
+        createdAt: timestamp()
       }
 
+      const res = await projectFirestore.collection('posts').add(post)
+      /*
       await fetch('http://localhost:3000/posts', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(post)
       })
-
+      */
       router.push({ name: 'Home' })
     }
 
